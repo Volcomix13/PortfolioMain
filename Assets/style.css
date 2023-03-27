@@ -1,0 +1,18 @@
+*{
+    background-color: rgb(229, 181, 229);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+    display: inline;
+   
+}
+
+/*Navigation Menu styling*/
+.Navigation-Menu {
+    text-decoration-line: underline;
+     
+}
+
+/*Main body styling: About Me, Porjects, and Contact me sections*/
+   
