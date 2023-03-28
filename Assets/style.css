@@ -1,18 +1,62 @@
-*{
-    background-color: rgb(229, 181, 229);
+body {
+    background-color: rgb(240, 207, 240);
     font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
 }
 
-h1 {
-    display: inline;
-   
+/*header styling*/
+
+header {
+    display: flex;
+    justify-content: space-around;
+    color: black;
 }
 
-/*Navigation Menu styling*/
-.Navigation-Menu {
-    text-decoration-line: underline;
-     
+img{ 
+    width: 150px;
+    height: auto;
+    border-radius: 600px;
+    display: flex;
+    justify-content: space-around;  
 }
 
-/*Main body styling: About Me, Porjects, and Contact me sections*/
-   
+
+nav {
+    display: flex;
+    justify-content: space-around;
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    flex-wrap: wrap;
+}
+
+/* links styling*/
+a {
+    color: black;
+    display: inline-flex;
+}
+
+/*styling of main section*/
+
+main {
+    display: flex;
+    align-items: center;
+}
+
+h2 {
+    display: flex;
+    align-items: flex-start;
+}
+
+p{
+    display: flex;
+    align-content: center;
+}
+
+
+/*work on creating h2 containers*/
+/*Remember to start from top to bottom!!!*/
