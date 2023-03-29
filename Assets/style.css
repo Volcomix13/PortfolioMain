@@ -1,6 +1,6 @@
 body {
     background-color: rgb(240, 207, 240);
-    font-family: Arial, Helvetica, sans-serif;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     margin: 0;
     padding: 0;
 }
@@ -11,6 +11,19 @@ header {
     display: flex;
     justify-content: space-around;
     color: black;
+    background-color:rgb(212, 182, 240) ;
+}
+
+h1{
+    background-color: plum;
+    color:aliceblue;
+    display: flex;
+    justify-content: center;
+    
+}
+
+.h1{
+
 }
 
 img{ 
@@ -36,25 +49,55 @@ nav ul {
 
 /* links styling*/
 a {
-    color: black;
-    display: inline-flex;
+    color: rgb(249, 243, 243);
+    display: flex;
+    justify-content: space-around;
+    flex: 1;
+
 }
 
 /*styling of main section*/
+/*This keeps the page divided in two sections*/
 
-main {
-    display: flex;
-    align-items: center;
+.left-side{
+    width: 20%;
+    margin: 10%
+
 }
+
+.right-side{
+    width: 80%;
+    margin-right: 10%;
+}
+
+.content{
+    display: flex;
+
+}
+
+/* don't mess with the CSS above!*/
+
 
 h2 {
     display: flex;
-    align-items: flex-start;
+    justify-content: space-around;
+    background-color: rgb(212, 182, 240);
+    color: aliceblue;
 }
 
-p{
-    display: flex;
-    align-content: center;
+
+/*Images for external links*/
+.BTS{
+    background-image: url(BTS.jpg);
+    width: max-content;
+}
+
+.Vegan-Cookbook{
+    background-image: url(pancakes.jpg);
+}   
+
+.Travel{
+    background-image: url(Dreamcatcher.jpg);
 }
 
 
