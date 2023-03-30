@@ -10,21 +10,24 @@ body {
 header {
     display: flex;
     justify-content: space-around;
-    background-color:rgb(212, 182, 240) ;
+    background-color:rgb(231, 212, 249);
+    border-style:double;
+    background-image: url(Background.svg); background-size: cover;   
 }
 
-img{ 
+img { 
     width: 150px;
     height: auto;
     border-radius: 600px;
-    display:inline;  
+    display:inline;
 }
 
-h1{
+h1 {
     background-color: rgb(181, 163, 226);
     color:aliceblue;
     display: flex;
-    justify-content: center;   
+    font-size: xx-large; 
+    border-style:double;
 }
 
 nav ul {
@@ -32,19 +35,20 @@ nav ul {
     justify-content: space-between;
     list-style: none;
     background-color: rgb(181, 163, 226);
-    
+    font-size: x-large; 
+    border-style:double;  
 }
 
 
 /*This keeps the page divided in two sections*/
 
-.content{
+.content {
     display: flex;
     color: rgb(231, 235, 240);
 
 }
 
-.left-side{
+.left-side {
     width: 20%;
     margin: 10%;
     border-left:0cap;
@@ -52,10 +56,11 @@ nav ul {
 
 }
 
-.right-side{
+.right-side {
     width: 80%;
     margin-right: 10%;
-    margin-top: 08% ;
+    margin-top: 08%;
+    
 }
 
 /* don't mess with the CSS above!*/
@@ -66,35 +71,88 @@ h2 {
     justify-content: space-around;
     background-color: rgb(212, 182, 240);
     color: aliceblue;
+    font-size: xx-large;
+    border-style:double;
 }
 
-p{
+p {
    display: flex;
-   align-content: center;
+   justify-content: space-between;
+   font-size: x-large;
+   background-color: rgb(212, 182, 240);
 }
 
+/* contact links styling*/
 div ul {
     color: rgb(249, 243, 243);
     display: flex;
     justify-content: space-between;
-    font-weight:bold;
     list-style: none;
-
+    font-size: x-large;
+    background-image: url(Background.svg); background-size: cover;   
+   
 }
 
-/*Images for external links*/
-.BTS{
-    background-image: url(BTS.jpg);
+div ul li {
+    background-color: rgb(231, 212, 249);
+    color: aliceblue;
+    border-style:double;
 }
 
-.Vegan-Cookbook{
+div ul li a {
+    color: aliceblue;
+}
+
+/*Images for external links, includes pseudo classes*/
+.BTS {
+    background-image: url(BTS.svg);  
+    height: 310px;
+    background-repeat: no-repeat;
+    display: flex;
+}
+
+.BTS:hover {
+    margin: auto;
+    height: 600px;
+}
+.Recipes {
     background-image: url(pancakes.jpg);
+    height: 310px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    display: flex;
+    justify-content: flex-start;
 }   
 
+.Recipes:hover {
+    margin: auto;
+    height: 500px;
+}
 .Travel{
-    background-image: url(Dreamcatcher.jpg);
+    background-image: url(Dreamcatcher.svg);
+    height: 310px;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.Travel:hover {
+    margin: auto;
+    height: 500px;
+}
+
+div div div a {
+    display: flex;
+    justify-content: flex start;
+    border-style:double;
+    color: aliceblue;
+    font-size: x-large;
+    height: min-content;
+    background-color: rgb(181, 163, 226);
+
 }
 
 
-/*work on creating h2 containers*/
 /*Remember to start from top to bottom!!!*/
+
+/*Sourced from unsplash, by...*/
