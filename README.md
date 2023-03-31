@@ -40,6 +40,3 @@ Pancake Photo by <a href="https://unsplash.com/@nikldn?utm_source=unsplash&utm_m
 
 BTS lightstick and Dreamcatcher stage photos are my own.
   
-
-## License
-Please see lincese section in repository
