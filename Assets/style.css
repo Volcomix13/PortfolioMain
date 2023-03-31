@@ -29,16 +29,19 @@ h1 {
     font-size: xx-large; 
     border-style:double;
 }
-
-nav ul {
+nav ul li{
+    list-style-type: none;
     display: flex;
-    justify-content: space-between;
-    list-style: none;
-    background-color: rgb(181, 163, 226);
-    font-size: x-large; 
-    border-style:double;  
 }
 
+nav ul li a{
+    display: flex;
+    background-color: rgb(181, 163, 226);
+    font-size: x-large; 
+    border-style:double; 
+    color: aliceblue;
+
+}
 
 /*This keeps the page divided in two sections*/
 
@@ -86,7 +89,7 @@ p {
 div ul {
     color: rgb(249, 243, 243);
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     list-style: none;
     font-size: x-large;
     background-image: url(Background.svg); background-size: cover;   
@@ -153,19 +156,11 @@ div div div a {
 }
 /*Media Query Screens*/
 @media screen and (max-width: 992px) {
+    font-size: large;
   
 }
-
-/* Large smartphones - navbar changes color */
 @media screen and (max-width: 768px) {
+    font-size: medium;
 
 }
-  
-  /* Small smartphones - image placeholders change color */
-  @media screen and (max-width: 576px) {
-    
-  }
 
-/*Remember to start from top to bottom!!!*/
-
-/*Sourced from unsplash, by...*/
