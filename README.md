@@ -1,6 +1,6 @@
 # Portfolio
 
-##Description
+## Description
 
 This project was created to showcase the websites and other projects I have worked on to potential employers. 
 It is also a home to these projects to aid in archiving all my works.
@@ -30,7 +30,9 @@ Images of website:
 Code:
 Tutor: Armando Osorio, assisted with main section layout
 TA: Melissa Hookey, assisted with guidance on HTML and CSS layout options.
+
 Pictures:
+
 Background Photo by <a href="https://unsplash.com/@pawel_czerwinski?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Pawel Czerwinski</a> on <a href="https://unsplash.com/backgrounds/colors/gradient?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
 
 Pancake Photo by <a href="https://unsplash.com/@nikldn?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">nikldn</a> on <a href="https://unsplash.com/s/photos/pancakes?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
@@ -39,5 +41,5 @@ Pancake Photo by <a href="https://unsplash.com/@nikldn?utm_source=unsplash&utm_m
 BTS lightstick and Dreamcatcher stage photos are my own.
   
 
-##License
+## License
 Please see lincese section in repository
